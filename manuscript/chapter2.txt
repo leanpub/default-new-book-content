@@ -8,4 +8,4 @@ To **bold**, use two asterisks.
 
 Here is an image with a caption:
 
-![Marmalade and Tangerine](images/marm-and-tangie.jpg)
+![Marmalade and Tangerine](marm-and-tangie.jpg)
