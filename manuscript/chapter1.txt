@@ -1,13 +1,6 @@
-# Chapter 1
+{sample: true}
+# Chapter One
 
-This is some default content for a new Leanpub book.
+This is an example chapter of a Leanpub book.  To start writing your book, simply replace the contents of this text box with your first chapter.
 
-You can download the manuscript folder containing the plain text files from which this book is generated. That way, you can see how everything in this book is actually written.
-
-Here is the download link for a zip file with the manuscript of this book: [https://github.com/leanpub/default-new-book-content/archive/master.zip](https://github.com/leanpub/default-new-book-content/archive/master.zip).
-
-Please note you can find our manual here: [https://leanpub.com/help/manual](https://leanpub.com/help/manual).
-
-We also have a author Help Center here: [http://help.leanpub.com/author-help](http://help.leanpub.com/author-help).
-
-In the following chapters you'll see some simple examples of how to format your writing and how to insert images.
+Chapter 2 has a quick introduction to Markdown. Click on "Chapter 2" on the left to see them.
