@@ -69,6 +69,6 @@ https://leanpub.com/YOUR_BOOK/preview
 
 You can also find a link to the "Preview New Version" page by clicking "Versions" in the menu at the top of the page, when you are working on your book in Leanpub.
 
-For more help getting started on your new Leanpub book, please select the walkthrough for your chosen writing mode here: [http://help.leanpub.com/en/articles/3088382-quick-walkthroughs-for-getting-started-on-a-leanpub-book](http://help.leanpub.com/en/articles/3088382-quick-walkthroughs-for-getting-started-on-a-leanpub-book).
+For more help getting started on your new Leanpub book, please select the walkthrough for your chosen writing mode [here](http://help.leanpub.com/en/articles/3088382-quick-walkthroughs-for-getting-started-on-a-leanpub-book).
 
 OK, that's it!
