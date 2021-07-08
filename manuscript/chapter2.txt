@@ -28,7 +28,7 @@ To add the image, you would type the following, on a line by itself: `![Palm Tre
 
 We typed the same thing in this chapter file. Here is the image:
 
-Test
+Test 2
 
 ![Palm Trees](palm-trees.jpg)
 
