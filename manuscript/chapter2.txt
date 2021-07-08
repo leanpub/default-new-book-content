@@ -28,6 +28,8 @@ To add the image, you would type the following, on a line by itself: `![Palm Tre
 
 We typed the same thing in this chapter file. Here is the image:
 
+Test
+
 ![Palm Trees](palm-trees.jpg)
 
 ## How Book.txt Works
