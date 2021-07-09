@@ -1,6 +1,26 @@
 {sample: true}
 # Chapter One
 
-This is an example chapter of a Leanpub book.  To start writing your book, simply replace the contents of this text box with your first chapter.
+This is an example of how to write a book chapter in plain text. If you want to learn how to write your book in Word, not in plain text, please go to Chapter Three.
 
-Chapter 2 has a quick introduction to Markdown. Click on "Chapter 2" on the left to see them.
+This chapter is generated from the "chapter1.txt" file in your book's "manuscript" folder.
+
+Please note that the "manuscript" folder needs to be placed at the top level of your book folder.
+
+If you are using Dropbox to write your book, when you create your book, we place the "manuscript" folder in the correct place for you, in the book folder we share with you through Dropbox.
+
+If you are using GitHub or Bitbucket to write your book, you need to paste the "manuscript" folder you will download into the top level of your book's repository.
+
+When you are writing in plain text, you can start new chapters by typing a # sign and a space, and then typing your chapter title, all on the same line.
+
+You can also start sub-sections by typing two ## signs instead of one, and then typing a space, and adding the name of the sub-section, all on the same line.
+
+You can see how this works by opening the "chapter1.txt" file in the "manuscript" folder for your book.
+
+At the top of this file, you will see the line "# Chapter One". That starts the chapter and gives it the chapter name that will appear in the book's Table of Contents. In this case, the chapter name that will appear in the Table of Contents is "Chapter One".
+
+You can start writing right now, by opening the "chapter1.txt" file in your book's "manuscript" folder, deleting the contents of this chapter, and then writing your own content!
+
+When you open this file, you will also see a line at the top that says "\{sample: true}". This means that when you generate a preview of your book, or publish a new version of your book, this chapter will be included in a separate "Sample" book that will be created. When you publish your book, this will give potential readers a "Sample" book to read, when they are deciding if they want to buy your book.
+
+For some instructions on how to write in plain text, please see Chapter Two, which is generated from the "chapter2.txt" file in your book's "manuscript" folder.
