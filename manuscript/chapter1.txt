@@ -1,26 +1,27 @@
-{sample: true}
 # Chapter One
 
-This is an example of how to write a book chapter in plain text. If you want to learn how to write your book in Word, not in plain text, please go to Chapter Three.
+Chapter One (this file) and Chapter Two are for people who want to write in plain text. If you want to write in Word, please go to Chapter Three!
 
-This chapter is generated from the "chapter1.txt" file in your book's "manuscript" folder.
+This is an example of how to write a book chapter in plain text, formatted with Markdown formatting. This is a paragraph. You just write.
 
-Please note that the "manuscript" folder needs to be placed at the top level of your book folder.
+Blank lines separate paragraphs. This is the second paragraph.
 
-If you are using Dropbox to write your book, when you create your book, we place the "manuscript" folder in the correct place for you, in the book folder we share with you through Dropbox.
+This is the third paragraph. To make *italic text* you surround it with single asterisks. To make **bold text** you surround it with double asterisks.
 
-If you are using GitHub or Bitbucket to write your book, you need to paste the "manuscript" folder you will download into the top level of your book's repository.
+You can start new chapters by starting a line with a # sign and a space, and then typing your chapter title.
 
-When you are writing in plain text, you can start new chapters by typing a # sign and a space, and then typing your chapter title, all on the same line.
+"This is in quotes."
 
-You can also start sub-sections by typing two ## signs instead of one, and then typing a space, and adding the name of the sub-section, all on the same line.
+You make a thematic break with three asterisks, like this:
 
-You can see how this works by opening the "chapter1.txt" file in the "manuscript" folder for your book.
+* * *
 
-At the top of this file, you will see the line "# Chapter One". That starts the chapter and gives it the chapter name that will appear in the book's Table of Contents. In this case, the chapter name that will appear in the Table of Contents is "Chapter One".
+By the way, the above formatting is actually *all* you need to know to write a novel using Markdown formatting. To write a technical book, however, you'll need to know a bit more Markdown.
 
-You can start writing right now, by opening the "chapter1.txt" file in your book's "manuscript" folder, deleting the contents of this chapter, and then writing your own content!
+We have a handy manual at https://leanpub.com/markua/read and we have a Markdown quick-start guide in Chapter 2.
 
-When you open this file, you will also see a line at the top that says "\{sample: true}". This means that when you generate a preview of your book, or publish a new version of your book, this chapter will be included in a separate "Sample" book that will be created. When you publish your book, this will give potential readers a "Sample" book to read, when they are deciding if they want to buy your book.
+Or, if you're ready to start writing your book, simply select all the text in this file, delete it, and then start writing! (Start with # Your Chapter Name and then a blank line, and then write your first paragraph.)
 
-For some instructions on how to write in plain text, please see Chapter Two, which is generated from the "chapter2.txt" file in your book's "manuscript" folder.
+* * *
+
+On behalf of everyone at Leanpub, we really hope that you enjoy the experience of writing and publishing in-progress on Leanpub. We are a bootstrapped startup which is entirely supported by our authors, and we're really grateful that you have chosen to write your book using Leanpub...

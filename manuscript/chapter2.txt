@@ -1,40 +1,49 @@
+{sample: true}
 # Chapter Two
 
-Writing in plain text is easy! You can learn most of what you need to know with just a few examples.
+Writing in Markdown is easy! You can learn most of what you need to know with just a few examples.
 
-To see just how easy it is, open the "chapter2.txt" file in your book's "manuscript" folder. The "chapter2.txt" file is the file that this chapter is generated from!
+To make *italic text* you surround it with single asterisks. To make **bold text** you surround it with double asterisks.
 
-To start a new paragraph, hit the "return" or "enter" key twice. You want to create a blank line between paragraphs.
+## Section One
 
-To italicize a word or a phrase, *surround the word or phrase in single asterisks*: * *.
+You can start new sections by starting a line with two # signs and a space, and then typing your section title.
 
-To make a word or phrase appear in bold, **surround the word or phrase in double asterisks**: ** **.
+### Sub-Section One
 
-You can add web links to Leanpub books. Here is a link to the [Leanpub homepage](https://leanpub.com).
+You can start new sub-sections by starting a line with three # signs and a space, and then typing your sub-section title.
 
-If you open the "chapter2.txt" file in your book's "manuscript" folder, you will see that the link was typed like this: `[Leanpub homepage](https://leanpub.com)`.
+## Including a Chapter in the Sample Book
 
-When you are creating a link, the part between the square brackets [ ] contains the words that people will see in your book, and the part in the parentheses ( ) is the web address you want to link to.
+At the top of this file, you will also see a line at the top that says `{sample: true}`, immediately above the # Chapter Two title. This means that when you generate a preview of your book, or publish a new version of your book, this chapter will be included in a separate sample book that will be created. When you publish your book, this will give potential readers a sample book to read, when they are deciding whether they want to buy your book.
+
+## Links
+
+You can add web links easily. Here is a link to the [Leanpub homepage](https://leanpub.com).
+
+When you are creating a web link, the part between the square brackets [ ] contains the words that people will see in your book, and the part in the round brackets ( ) is the web address you are linking to.
+
+## Images
 
 You can add an image to your book in a similar way.
 
-First, add the image to the "resources" folder for your book. You will find the "resources" folder in your book's "manuscript" folder.
+First, add the image to the "resources" folder for your book. You will find the "resources" folder in your book's "manuscript" folder, which is at the top level of your book's folder in Dropbox. 
 
-If you look in your book's "resources" folder right now, you will see that there is an image there with the file name "palm-trees.jpg".
-
-To add the image to your book, **on a line by itself,** type an exclamation point ! to indicate that you are adding an image. Then, type the image caption between square brackets [ ]. Next, between parentheses ( ), you type the file name.
-
-To add the image, you would type the following, on a line by itself: `![Palm Trees](palm-trees.jpg)`.
-
-We typed the same thing in this chapter file. Here is the image:
+If you look in your book's "resources" folder right now, you will see that there is an example image there with the file name "palm-trees.jpg". Here's how you can add this image to your book:
 
 ![Palm Trees](palm-trees.jpg)
+
+As this example image shows, **on a line by itself** you type an exclamation point !, followed by the image caption between square brackets and the filename between round brackets.
+
+To learn more about adding images, see [this link](https://leanpub.com/markua/read#images).
 
 ## How Book.txt Works
 
 If you look in your book's "manuscript" folder, you will see there is a file called "Book.txt".
 
 The "Book.txt" file is what our book generators use to decide what other files to include in your book. It is a list of the files in your "manuscript" folder that you decide you want to include in your book.
+
+You can have multiple chapters in one file, but we recommend one chapter per file. This way, it's easier to navigate.
 
 If you open the "Book.txt" file now, you will see the following list:
 
@@ -61,14 +70,22 @@ The next time you create generate a preview of your book, our book generators wi
 
 You can generate a new version of your book any time by going to the "Preview" page for your book on Leanpub.
 
-To go to the Preview page for your book, go here:
+To go to the Preview page for your book, click on the Versions tab on Leanpub when you are working on your book. By default you will be taken to the "Preview New Version" page, which is where you'll be able to preview your book.
 
-https://leanpub.com/YOUR_BOOK/preview
+## Getting Help
 
-...making sure to replace YOUR_BOOK with your book's unique web address.
+Finally, to get help, go to the Help tab for your book in Leanpub and then either...
 
-You can also find a link to the "Preview New Version" page by clicking "Versions" in the menu at the top of the page, when you are working on your book in Leanpub.
+1. See our Getting Started page to learn how to get started.
+2. See our Getting Help page to learn how to get help.
+3. Clicking the link to the [Markua manual](https://leanpub.com/markua/read) on the Getting Help page. The Markua manual contains everything you need to know about writing in Markdown on Leanpub. (Our dialect of Markdown is called Markua.)
 
-For more help getting started on your new Leanpub book, please select the walkthrough for your chosen writing mode [here](http://help.leanpub.com/en/articles/3088382-quick-walkthroughs-for-getting-started-on-a-leanpub-book).
+By the way, that was how you make a numbered list in Markdown.
 
-OK, that's it!
+You can also make a bulleted list like this:
+
+* item one
+* the second item
+* another item
+
+We hope that you find writing in Markdown on Leanpub to be simple and enjoyable!
