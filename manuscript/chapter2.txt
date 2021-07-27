@@ -27,7 +27,7 @@ When you are creating a web link, the part between the square brackets [ ] conta
 
 You can add an image to your book in a similar way.
 
-First, add the image to the "resources" folder for your book. You will find the "resources" folder in your book's "manuscript" folder, which is at the top level of your book's folder in Dropbox. 
+First, add the image to the "resources" folder for your book. You will find the "resources" folder in your book's "manuscript" folder, which is at the top level of your book's folder in GitHub or Bitbucket. 
 
 If you look in your book's "resources" folder right now, you will see that there is an example image there with the file name "palm-trees.jpg". Here's how you can add this image to your book:
 
