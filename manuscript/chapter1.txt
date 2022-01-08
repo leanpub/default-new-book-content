@@ -1,7 +1,5 @@
 # Chapter One
 
-Chapter One (this file) and Chapter Two are for people who want to write in plain text. If you want to write in Word, please go to Chapter Three!
-
 This is an example of how to write a book chapter in plain text, formatted with Markdown formatting. This is a paragraph. You just write.
 
 Blank lines separate paragraphs. This is the second paragraph.

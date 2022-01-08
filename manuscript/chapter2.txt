@@ -37,6 +37,85 @@ As this example image shows, **on a line by itself** you type an exclamation poi
 
 To learn more about adding images, see [this link](https://leanpub.com/markua/read#images).
 
+## Lists
+
+### Numbered Lists
+
+You make a numbered list like this:
+
+1. kale
+2. carrot
+3. ginger
+
+### Bulleted Lists
+
+You make a bulleted list like this:
+
+* kale
+* carrot
+* ginger
+
+## Code Samples
+
+You can add code samples really easily. Code can be in separate files (a "local" resource) or in the manuscript itself (an "inline" resource).
+
+### Local Code Samples
+
+Here's a local code resource:
+
+{format: ruby}
+![Hello World in Ruby](hello.rb)
+
+### Inline Code Samples
+
+Inline code samples can either be spans or figures.
+
+A span looks like `puts "hello world"` this.
+
+A figure looks like this:
+
+```ruby
+puts "hello"
+```
+
+You can also add a caption:
+
+{caption: "Hello World in Ruby"}
+```ruby
+puts "hello"
+```
+
+To learn more about adding code samples, see [this link](https://leanpub.com/markua/read#code).
+
+## Tables
+
+You can insert tables easily inline, using the GitHub Flavored Markdown (GFM) table syntax:
+
+| Header 1  | Header 2 |
+| --- | --- |
+| Content 1 | Content 2 |
+| Content 3 | Content 4 Can be Different Length |
+
+To learn more about adding tables, see [this link](https://leanpub.com/markua/read#tables).
+
+## Math
+
+You can easily insert math equations inline using either spans or figures.
+
+Here's one of the kinematic equations `d = v_i t + \frac{1}{2} a t^2`$ inserted as a span inside a sentence.
+
+Here's some math inserted as a figure.
+
+{caption: "Something Involving Sums"}
+```latexmath
+\left|\sum_{i=1}^n a_ib_i\right|
+\le
+\left(\sum_{i=1}^n a_i^2\right)^{1/2}
+\left(\sum_{i=1}^n b_i^2\right)^{1/2}
+```
+
+To learn more about adding math, see [this link](https://leanpub.com/markua/read#math).
+
 ## How Book.txt Works
 
 If you look in your book's "manuscript" folder, you will see there is a file called "Book.txt".
