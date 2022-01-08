@@ -2,7 +2,7 @@
 
 This repository contains some default content that can be added to a new Leanpub book so you can make your first book preview.
 
-Just click "Use this template" on GitHub to create a new repo of your own, with everything set up just like is here.
+Just click "Use this template" on GitHub to create a new repo of your own, with everything set up just like it is here.
 
 At the top level of the repo will be a "manuscript" folder.
 
