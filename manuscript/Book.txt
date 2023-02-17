@@ -1,2 +1,2 @@
-chapter1.txt
-chapter2.txt
+chapter1-the-basics.txt
+chapter2-writing-in-markua.txt
